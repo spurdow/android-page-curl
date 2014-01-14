@@ -651,6 +651,7 @@ public class PageCurlView extends View {
 				point.y = (float) (Math.sin(Math.acos(Math.abs(point.x-mOrigin.x)/mFlipRadius))*mFlipRadius);
 			}
 		}
+		//Log.d("CAP POINTS ", point.toString()) ;
 		return point;
 	}
 	
